@@ -3,7 +3,7 @@ import './App.css';
 import {useState,useEffect} from 'react'
 import Movie from './Movie';
 
-const API_URL = 'http://www.omdbapi.com/?apikey=1ee386a0'
+const API_URL = 'https://www.omdbapi.com/?apikey=1ee386a0'
 
 
 const App = () => {
