@@ -10,9 +10,9 @@ const App = () => {
   const [movieName, setMovieName] = useState("");
   const [movies, setMovies] = useState([]);
 
-  // useEffect(() => {
-  //   searchMovies("Naruto");
-  // }, []);
+  useEffect(() => {
+    searchMovies("Naruto");
+  }, []);
 
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
