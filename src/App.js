@@ -32,7 +32,7 @@ const App = () => {
             setMovieName(e.target.value)
             console.log(e.target.value)
           }}
-          placeholder="Search for movies"
+          placeholder="Type here...."
         />
         <button
         className='buttonSearch'
